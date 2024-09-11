@@ -9,7 +9,7 @@ export default function Heros() {
                 <Image
                     src="/landing_light.png"
                     fill
-                    className='object-contain'
+                    className='object-contain dark:hidden'
                     alt="landing image"
                 />
             </div>
@@ -17,7 +17,7 @@ export default function Heros() {
                 <Image
                     src="/landing_light2.png"
                     fill
-                    className='object-contain'
+                    className='object-contain dark:hidden'
                     alt='landing image2'
                 />
             </div>
