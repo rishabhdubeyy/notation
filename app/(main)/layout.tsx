@@ -1,9 +1,12 @@
 "use client" 
 
 import { Spinner } from "@/components/spinner";
+
 import { useConvexAuth } from "convex/react";
+
 import { redirect } from "next/navigation";
-import Navigation from "./_components/Navigation";
+
+import { Navigation } from "./_components/Navigation";
 
 
 
@@ -17,7 +20,7 @@ const MainLayout = ({
 
     if (isLoading){
         return (
-            <div className="h-full flex items-center justify-center">
+            <div className="h-screen flex items-center justify-center">
                 <Spinner size="lg"/>
             </div>
         );
